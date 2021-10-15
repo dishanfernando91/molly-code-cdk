@@ -1,0 +1,30 @@
+{
+  "name": "molly-code-cdk",
+  "version": "0.1.0",
+  "bin": {
+    "molly-code-cdk": "bin/molly-code-cdk.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.126.0",
+    "aws-cdk": "1.126.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.126.0",
+    "@aws-cdk/aws-dynamodb": "^1.126.0",
+    "@aws-cdk/aws-lambda": "^1.126.0",
+    "@aws-cdk/core": "1.126.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "source-map-support": "^0.5.16"
+  }
+}
