@@ -5,6 +5,7 @@ const axios = require("axios");
 require("dotenv").config();
 
 const token = process.env.TOKEN;
+// token --> lovable-crow-brev-hedge
 
 const corsAccess = {
   "Access-Control-Allow-Origin": "*",
